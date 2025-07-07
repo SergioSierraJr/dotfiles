@@ -115,3 +115,11 @@
 					; programming modes
 (use-package rust-mode
   :ensure t)
+
+
+; magit for git stuff
+(use-package transient 
+  :ensure t)
+(use-package magit
+  :ensure t
+  :after transient)
